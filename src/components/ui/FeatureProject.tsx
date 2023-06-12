@@ -62,10 +62,10 @@ export const FeatureProject: FC<FeatureProjectProps> = ({
             {title}
           </h2>
         </Link>
-        <p className='my-2 font-medium text-black sm:text-sm'>{summary}</p>
+        <p className='my-2 font-medium text-black sm:text-sm lg:text-lg'>{summary}</p>
         <ul className='ml-5'>
           {skillsList.map((skill: string, index: number) => (
-            <li key={index} className='m-2 list-disc text-pink-700'>
+            <li key={index} className='my-2 list-disc text-pink-700 sm:text-sm lg:text-lg'>
               {skill}
             </li>
           ))}

@@ -16,7 +16,7 @@ export default function Home() {
             priority
           />
         </div>
-        <div className='flex w-1/2 flex-col items-center self-center 2xl:mx-5 3xl:ml-2 xl:ml-0 lg:w-full lg:text-center xs:mt-5'>
+        <div className='flex w-1/2 flex-col items-center self-center 2xl:mx-5 lg:mx-0 3xl:ml-2 xl:ml-0 lg:w-full lg:text-center xs:mt-5'>
           <Presentation
             text='Convirtiendo Obstáculos en Sólidos Escalones hacia el Progreso'
             className='!text-6x1 !text-left
