@@ -32,7 +32,7 @@ export const Experience: FC<ExperienceProps> = () => {
             company='MyPage'
             time='2023 - Concluído'
             address='Líma, Perú'
-            work='He desarrollado más de 15 proyectos de diversas categorías, que incluyen desde aplicaciones para encriptar texto y generar contraseñas seguras hasta el desarrollo de complejos sistemas de juegos como Tenzie, Quizzical y Tipea Rápido, entre otros. Cuento con más de 6 meses de experiencia en el área de Frontend y Backend, incluyendo el diseño de páginas web. Además, he complementado mi formación con varios cursos de ciberseguridad, cloud computing con Azure, y los módulos I y II de CCNA de Cisco.'
+            work='He desarrollado más de 20 proyectos de diversas categorías, que incluyen desde aplicaciones para encriptar texto y generar contraseñas seguras hasta el desarrollo de complejos sistemas de juegos como Tenzie, Quizzical y Tipea Rápido, entre otros. Cuento con más de 6 meses de experiencia en el área de Frontend y Backend, incluyendo el diseño de páginas web. Además, he complementado mi formación con varios cursos de ciberseguridad, cloud computing con Azure, y los módulos I y II de CCNA de Cisco.'
             companyLink='https://ieremy-flores.netlify.app/'
           />
           <Detail
