@@ -89,7 +89,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
         </Box>
 
         <Box flex={1} />
-
+            
         <IconButton className='hover:text-white dark:text-white dark:hover:text-stone-400 lg:hidden'>
           <LanguageIcon />
         </IconButton>
@@ -152,8 +152,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
             </Link>
 
             <Box
-              sx={{ display: { xs: 'none', sm: 'block' } }}
-              className={`flex flex-col items-center justify-center gap-2 dark:text-black`}
+              className="flex flex-col items-center justify-center gap-2 dark:text-black"
             >
               <Link
                 href='/work'
