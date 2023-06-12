@@ -38,7 +38,7 @@ export default function Home() {
               target='_blank'
               className='m-2 mb-auto rounded-xl bg-black p-5 text-white duration-700 ease-in-out hover:scale-105
             hover:bg-white hover:text-black 3xl:text-3xl 2xl:text-2xl xl:ml-auto xl:text-xl
-            lg:m-auto lg:my-3 lg:text-lg md:p-4 md:text-lg xs:p-4 xs:px-8 xs:text-xs 3xl:ml-0
+            lg:m-auto lg:my-3 lg:text-lg md:p-4 md:text-lg xs:p-4 xs:px-8 3xl:ml-0
             '
             >
               Mi Curriculum
