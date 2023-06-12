@@ -89,7 +89,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
         </Box>
 
         <Box flex={1} />
-            
+
         <IconButton className='hover:text-white dark:text-white dark:hover:text-stone-400 lg:hidden'>
           <LanguageIcon />
         </IconButton>
@@ -124,7 +124,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
         {isOpen ? (
           <div
             className={`fixed left-1/2 top-1/2 z-30 flex min-w-[70vw] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-lg py-32 backdrop-blur-md
-        dark:bg-white/40`}
+        dark:bg-white/40 bg-black/75`}
           >
             <Link href='/' style={{ display: 'flex', alignItems: 'center' }}>
               <Card
@@ -146,7 +146,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
                     fontWeight: 'bold',
                   }}
                 >
-                  Soy Ieremy Flores
+                  Home
                 </Typography>
               </Card>
             </Link>
@@ -158,7 +158,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
                 href='/work'
                 onClick={handleClick}
                 className='rounded-lg from-slate-200 to-stone-900
-                 ease-in-out hover:scale-105 hover:bg-gradient-to-tr'
+                 ease-in-out hover:scale-105 hover:bg-gradient-to-tr dark:text-black'
               >
                 <Button color='inherit'>Proyectos</Button>
               </Link>
@@ -166,7 +166,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
                 href='/about'
                 onClick={handleClick}
                 className='rounded-lg from-slate-200 to-stone-900 
-                 ease-in-out hover:scale-105 hover:bg-gradient-to-tr'
+                 ease-in-out hover:scale-105 hover:bg-gradient-to-tr dark:text-black'
               >
                 <Button color='inherit'>Sobre mí</Button>
               </Link>
@@ -182,13 +182,13 @@ export const NavBar: React.FC<NavBarProps> = () => {
                 href='/askMe'
                 onClick={handleClick}
                 className='rounded-lg from-slate-200 to-stone-900 
-                 ease-in-out hover:scale-105 hover:bg-gradient-to-tr'
+                 ease-in-out hover:scale-105 hover:bg-gradient-to-tr dark:text-black'
               >
                 <Button color='inherit'>Pregúntame</Button>
               </Link>
             </Box>
 
-            <IconButton className='duration-1000 ease-in-out hover:scale-105'>
+            <IconButton className='duration-1000 ease-in-out hover:scale-105 my-2'>
               <LanguageIcon color={'primary'} />
             </IconButton>
             <IconButton
