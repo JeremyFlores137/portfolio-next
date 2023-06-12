@@ -9,7 +9,7 @@ const ContactMe: FC<ContactMeProps> = () => {
     <div className='fixed bottom-24 right-0 flex items-center justify-center overflow-hidden 2xl:hidden'>
       <div className='relative flex h-auto w-44 items-center justify-center'>
         <SvgComponentContact
-          className={'fill-dark animate-spin-slow font-bold'}
+          className={'fill-dark animate-spin-slow font-bold dark:fill-white'}
         />
         <Link
           href='mailto:eulerfermatleibniz@gmail.com'
