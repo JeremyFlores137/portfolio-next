@@ -90,18 +90,18 @@ export const NavBar: React.FC<NavBarProps> = () => {
 
         <Box flex={1} />
 
-        <IconButton className='hover:text-white dark:text-white dark:hover:text-stone-400 lg:hidden'>
+        <IconButton className='hover:text-white dark:text-white dark:hover:text-stone-400'>
           <LanguageIcon />
         </IconButton>
         <IconButton
-          className='hover:text-white dark:text-white dark:hover:text-stone-400 lg:hidden'
+          className='hover:text-white dark:text-white dark:hover:text-stone-400'
           onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
         >
           {mode === 'dark' ? <WbSunnyIcon /> : <DarkModeIcon />}
         </IconButton>
 
         <button
-          className='hidden flex-col items-center justify-center lg:flex'
+          className='hidden flex-col items-center justify-center lg:flex ml-[0.62em]'
           onClick={handleClick}
         >
           <span
@@ -187,20 +187,6 @@ export const NavBar: React.FC<NavBarProps> = () => {
                 <Button color='inherit'>Pregúntame</Button>
               </Link>
             </Box>
-
-            <IconButton className='duration-1000 ease-in-out hover:scale-105 my-2'>
-              <LanguageIcon color={'primary'} />
-            </IconButton>
-            <IconButton
-              className='duration-1000 ease-in-out hover:scale-105'
-              onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
-            >
-              {mode === 'dark' ? (
-                <WbSunnyIcon color={'primary'} />
-              ) : (
-                <DarkModeIcon color={'secondary'} />
-              )}
-            </IconButton>
           </div>
         ) : null}
       </Toolbar>
