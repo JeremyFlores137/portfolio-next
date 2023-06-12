@@ -1,13 +1,13 @@
-'use client';
 import { useState, useEffect } from 'react';
 
 export const useThemeSwitcher = () => {
   const preferDarkQuery = '(prefers-color-scheme: dark)';
-  const [mode, setMode] = useState(localStorage.getItem('theme') || '');
-  console.log(localStorage.getItem('theme'))
+  const [mode, setMode] = useState('');
   useEffect(() => {
     const mediaQuery = window.matchMedia(preferDarkQuery);
+    console.log(mediaQuery);
     const userPref = window.localStorage.getItem('theme');
+    console.log(userPref);
     const handleChange = () => {
       if (userPref) {
         let check = userPref === 'dark' ? 'dark' : 'light';
