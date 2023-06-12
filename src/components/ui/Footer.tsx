@@ -7,7 +7,7 @@ interface PageProps {}
 
 export const Footer: FC<PageProps> = () => {
   return (
-    <footer className='w-full border-t-2 border-solid border-black text-lg font-medium sm:text-base dark:bg-black/90'>
+    <footer className='w-full border-t-2 border-solid border-black dark:border-white text-lg font-medium sm:text-base dark:bg-black/90'>
       <div className='flex items-center justify-between px-10 py-8 lg:flex-col lg:py-6'>
         <span className="dark:text-white/80">{new Date().getFullYear()} &copy; Copyright - Ieremy Flores</span>
         <div className='flex items-center justify-between gap-10 lg:py-4'>

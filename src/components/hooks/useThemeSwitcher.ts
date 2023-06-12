@@ -29,6 +29,7 @@ export const useThemeSwitcher = () => {
     };
 
     mediaQuery.addEventListener('change', handleChange);
+    //handleChange();
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
 

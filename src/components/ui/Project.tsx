@@ -76,9 +76,9 @@ export const Project: FC<ProjectProps> = ({
             target='_blank'
             className='text-lg font-semibold underline md:text-base text-black'
           >
-            Visit
+            Visitar
           </Link>
-          <Link href={github} target='_blank' className='w-8 md:w-6'>
+          <Link href={github} target='_blank' className='w-8 md:w-6 hover:scale-105 ease-in-out duration-200'>
             <SvgComponentGit />
           </Link>
         </div>
