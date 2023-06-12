@@ -46,7 +46,7 @@ export const Education: FC<EducationProps> = () => {
             type='Certified in Cybersecurity'
             time='2023 - Concluído'
             place='(ISC)²'
-            info='(ISC)² es una asociación internacional sin fines de lucro para líderes de seguridad de la información como tú. Nos comprometemos a ayudar a nuestros miembros a aprender, crecer y prosperar. Con casi 330,000 miembros, asociados y candidatos, capacitamos a profesionales que abarcan todos los aspectos de la seguridad de la información.'
+            info='(ISC)² es una asociación internacional sin fines de lucro para líderes de seguridad de la información. Se comprometen a ayudar a los miembros a aprender, crecer y prosperar. Con casi 330,000 miembros, asociados y candidatos, capacitamos a profesionales que abarcan todos los aspectos de la seguridad de la información.'
           />
           <DetailEducation
             type='Penetration Testing Student - eJPTv2'

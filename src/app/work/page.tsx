@@ -15,21 +15,21 @@ interface WorkProps {}
 
 const Work: FC<WorkProps> = () => {
   return (
-    <section className='pb-16 flex w-full flex-col items-center justify-center 3xl:mt-40 2xl:mt-0'>
+    <section className='flex w-full flex-col items-center justify-center pb-16 3xl:mt-40 2xl:mt-0'>
       <Presentation
         text='La Imaginación Supera al Conocimiento!'
-        className='!mb-16 lg:!text-6xl sm:mb-8 sm:!text-6xl xs:!text-4xl !normal-case dark:text-white/90'
+        className='!mb-16 !normal-case dark:text-white/90 lg:!text-6xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
       />
 
       <div className='grid grid-cols-12 gap-24 gap-y-32 2xl:p-10 xl:gap-x-16 lg:gap-x-8 lg:p-0 md:gap-y-24 sm:gap-x-0'>
         <div className='col-span-12'>
           <FeatureProject
-            title='Improved-Quizzical App'
-            summary='Quizzical app with better UI and has been developed following current React trends including useReducer, useContext and so on.'
+            title='Quizzical II'
+            summary='Esta aplicación Quizzical II presenta una interfaz de usuario más intuitiva y desarrollada siguiendo las tendencias actuales de React, incluyendo el uso de useReducer, useContext, entre otros.'
             link='https://dynamic-creponne-4b83e7.netlify.app/'
             img={improvedQuizzical.src}
             github='https://github.com/JeremyFlores137/improved-quizcall'
-            type='Featured Proyect'
+            type='Proyecto Destacado'
             skillsList={['React', 'HTML', 'CSS']}
           />
         </div>
@@ -39,9 +39,9 @@ const Work: FC<WorkProps> = () => {
             link='https://stunning-melomakarona-7f116b.netlify.app/'
             img={tenzies.src}
             github='https://github.com/JeremyFlores137/tenzies'
-            type='Proyect'
+            type='Proyecto'
             skillsList={['React', 'HTML', 'CSS']}
-            summary='A game of Tenzies to enjoy with family, the winner is the one who manages to have all ten dice of a single number.'
+            summary='Un juego de Tenzies para disfrutar en familia, donde el ganador es quien logra tener los diez dados de un único número.'
           />
         </div>
         <div className='col-span-6 sm:col-span-12'>
@@ -50,20 +50,20 @@ const Work: FC<WorkProps> = () => {
             link='https://charming-taffy-a45bd2.netlify.app/'
             img={movieWatchList.src}
             github='https://github.com/JeremyFlores137/Movie-watchlist'
-            type='Proyect'
-            skillsList={['React', 'HTML', 'CSS']}
-            summary="An app that helps you find the perfect movie to watch today with your loved ones. it's your ultimate companion for discovering, organizing, and tracking your favorite movies. This app is designed to enhance your movie-watching experience by providing a comprehensive platform to explore new films, create personalized watchlists, and keep track of the movies you've watched."
+            type='Proyecto'
+            skillsList={['JavaScript', 'HTML', 'CSS']}
+            summary='Una aplicación que te ayuda a encontrar la película perfecta para ver hoy con tus seres queridos. Es tu compañero definitivo para descubrir, organizar y hacer un seguimiento de tus películas favoritas. Esta aplicación está diseñada para mejorar tu experiencia al ver películas al brindarte una plataforma integral para explorar nuevos filmes, crear listas personalizadas de películas por ver y realizar un seguimiento de las películas que has visto.'
             className='m-auto !w-[55%] rounded-lg'
           />
         </div>
         <div className='col-span-12'>
           <FeatureProject
             title='Jobiby'
-            summary='Welcome to Jobyfy, a comprehensive job search application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. With jobyfy, finding your dream job becomes easier than ever before. This intuitive and user-friendly app connects job seekers with relevant job opportunities, streamlining the entire job search process.'
+            summary='Bienvenido a Jobyfy, una aplicación completa de búsqueda de empleo construida utilizando la pila MERN (MongoDB, Express.js, React.js, Node.js). Con Jobyfy, encontrar el trabajo de tus sueños es más fácil que nunca. Esta aplicación intuitiva y fácil de usar, conecta a los buscadores de empleo con oportunidades laborales relevantes, optimizando todo el proceso de búsqueda de empleo.'
             link='https://mern-app-the-beginning.onrender.com/landing'
             img={jobify.src}
             github='https://github.com/JeremyFlores137/MERN-APP'
-            type='Featured Proyect'
+            type='Proyecto Destacado'
             skillsList={[
               'React',
               'React Router',
@@ -76,13 +76,13 @@ const Work: FC<WorkProps> = () => {
         </div>
         <div className='col-span-6 sm:col-span-12'>
           <Project
-            title='Text Encryption'
+            title='Encriptador de Texto'
             link='https://jeremyflores137.github.io/JeremyFlores137.github.io-textEncryption/'
             img={textEncryption.src}
             github='https://github.com/JeremyFlores137/JeremyFlores137.github.io-textEncryption'
-            type='Proyect'
+            type='Proyecto'
             skillsList={['JavaScript', 'HTML', 'CSS']}
-            summary='Text Encryption is a minimalist app designed to provide privacy and security for your conversations. With its user-friendly interface, Text Encryption ensures that your messages remain confidential and protected from prying eyes.'
+            summary='Encriptador de Texto es una aplicación minimalista diseñada para proporcionar privacidad y seguridad en tus conversaciones. Con su interfaz fácil de usar, Encriptador de Texto garantiza que tus mensajes se mantengan confidenciales y protegidos de miradas indiscretas.'
           />
         </div>
         <div className='col-span-6 sm:col-span-12'>
@@ -91,19 +91,19 @@ const Work: FC<WorkProps> = () => {
             link='https://astounding-alpaca-c8bc80.netlify.app/'
             img={dashboard.src}
             github='https://github.com/JeremyFlores137/Dashboard'
-            type='Proyect'
+            type='Proyecto'
             skillsList={['React', 'HTML', 'CSS']}
-            summary='A Chrome extension to help you focus and stay up-to-date.'
+            summary='Una extensión de Chrome para ayudarte a mantener el enfoque y estar actualizado.'
           />
         </div>
         <div className='col-span-12'>
           <FeatureProject
             title='Quizzical App'
-            summary='Have you ever wonder if you have sufficient knowledge about general topics? Now is the time to prove yourself.'
+            summary='¿Alguna vez te has preguntado si tienes suficiente conocimiento sobre temas generales?. Ahora es el momento de demostrarte a ti mismo.'
             link='https://ubiquitous-stardust-ecf078.netlify.app/'
             img={quizzical.src}
             github='https://github.com/JeremyFlores137/Quizzical'
-            type='Featured Proyect'
+            type='Proyecto Destacado'
             skillsList={['React', 'HTML', 'CSS']}
           />
         </div>
@@ -115,28 +115,28 @@ const Work: FC<WorkProps> = () => {
             github='https://github.com/JeremyFlores137/Password-Generator'
             type='Proyect'
             skillsList={['JavaScript', 'HTML', 'CSS']}
-            summary='An app that helps you generate secure passwords. An indispensable feature nowadays.'
+            summary='Una aplicación que te ayuda a generar contraseñas seguras. Una característica indispensable en la actualidad.'
           />
         </div>
         <div className='col-span-6 sm:col-span-12'>
           <Project
-            title='Speed Typing Game'
+            title='Tipeador Bolt'
             link='https://peaceful-gaufre-4537e2.netlify.app/'
             img={typing.src}
             github='https://github.com/JeremyFlores137/typing-game'
-            type='Proyect'
+            type='Proyecto'
             skillsList={['React', 'HTML', 'CSS']}
-            summary="Speed Typing Game is a fun and engaging app designed to improve your typing skills while keeping you entertained. Whether you're a beginner looking to enhance your typing speed or an experienced typist aiming for perfection, this app offers an exciting and challenging way to master the art of fast and accurate typing."
+            summary='Tipeador Bolt es una aplicación divertida y atractiva diseñada para mejorar tus habilidades de escritura mientras te diviertes. Ya sea que seas un principiante que busca mejorar su velocidad de escritura o un mecanógrafo experimentado que apunta a la perfección, esta aplicación ofrece una forma emocionante y desafiante de dominar el arte de escribir rápido y con precisión.'
           />
         </div>
         <div className='col-span-12'>
           <FeatureProject
-            title='Previous Portfolio'
-            summary='As a beginner, my web portfolio served as a way to showcase my skills and initial projects. The design of the portfolio was simple and clean, with a basic structure that included a home page, an "About Me" section, and a project gallery.'
+            title='Anterior Portafolio'
+            summary='Como principiante, mi portafolio web me sirvió como una forma de mostrar mis habilidades y comenzar con proyectos iniciales. El diseño del portafolio es simple y minimalista, con una estructura básica que incluye una página de inicio, una sección about y una galería de proyectos.'
             link='https://ieremy-flores.netlify.app/'
             img={previous_portfolio.src}
             github='https://github.com/JeremyFlores137/Porftfolio'
-            type='Featured Proyect'
+            type='Proyecto Destacado'
             skillsList={['JavaScript', 'HTML', 'CSS']}
           />
         </div>

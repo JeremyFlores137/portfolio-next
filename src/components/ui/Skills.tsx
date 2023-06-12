@@ -8,8 +8,8 @@ interface SkillsProps {}
 const Skills: FC<SkillsProps> = () => {
   return (
     <>
-      <h2 className='mb-5 mt-64 w-full text-center text-8xl font-bold dark:text-white/80 md:mt-32 md:text-6xl'>
-        Skills
+      <h2 className='mb-5 mt-64 w-full text-center text-8xl font-bold dark:text-white/80 md:mt-32 md:text-6xl 3xl:mb-14'>
+        Habilidades
       </h2>
       <div
         className='relative flex h-screen w-full items-center justify-center rounded-full
