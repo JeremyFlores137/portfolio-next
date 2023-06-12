@@ -69,7 +69,7 @@ const About: FC<AboutProps> = () => {
               className={`inline-block text-8xl font-bold dark:text-white md:text-6xl sm:text-5xl 
             xs:text-4xl`}
             >
-              <AnimatedNumbers value={10} /> +
+              <AnimatedNumbers value={20} /> +
             </span>
             <h2
               className={`text-xl font-medium dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
