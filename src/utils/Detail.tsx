@@ -32,7 +32,7 @@ export const Detail: FC<DetailProps> = ({
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: 'spring' }}
       >
-        <h3 className='text-2xl font-bold capitalize dark:text-white/75 sm:text-xl xs:text-lg'>
+        <h3 className='text-2xl font-bold dark:text-white/75 sm:text-xl xs:text-lg'>
           {position}&nbsp;
           <a
             href={companyLink}
@@ -42,16 +42,12 @@ export const Detail: FC<DetailProps> = ({
             @{company}
           </a>
         </h3>
-        <span
-          style={{
-            fontWeight: '500',
-            textTransform: 'capitalize',
-          }}
-          className='xs:text-sm dark:text-white/60'
-        >
+        <span style={{opacity:0.8}} className='font-semibold dark:text-white xs:text-sm'>
           {time} | {address}
         </span>
-        <p className='w-full font-medium md:text-sm dark:text-white/75'>{work}</p>
+        <p className='w-full font-medium dark:text-white/75 md:text-sm'>
+          {work}
+        </p>
       </motion.div>
     </li>
   );

@@ -12,7 +12,7 @@ const About: FC<AboutProps> = () => {
     <div className='flex w-full flex-col items-center justify-center'>
       <Presentation
         text='Poder del Desarrollo: Imagina y Despliégalo'
-        className='!mb-16 !normal-case 3xl:!mt-40 2xl:!mt-8 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl dark:!text-white/80'
+        className='!mb-16 !normal-case dark:!text-white/80 3xl:!mt-40 2xl:!mt-8 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl'
       />
       <div className='grid w-full grid-cols-8 gap-16 pb-24 pt-5 3xl:px-24 md:px-0 sm:gap-8'>
         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
@@ -20,14 +20,33 @@ const About: FC<AboutProps> = () => {
             Biografía
           </h2>
           <p className='font-medium dark:text-white/75'>
-            Soy un estudiante de la carrera de Ingeniería de Telecomunicaciones
-            de Perú, desde mis inicios en la universidad afloró en mi una pasión
-            por el mundo de la Programación, Desarrollo de Aplicaciones,
-            Ciberseguridad, Cloud Computing, entre otras cosas. Siempre trato de
-            desarrollar aplicaciones que no solo funcionen, sino que sean lo más
-            optimas posibles para las diversas plataformas del mercado.
+            Mi nombre es Ieremy Flores. Soy un estudiante de la carrera de
+            Ingeniería de Telecomunicaciones en Perú. Desde mis inicios en la
+            universidad, ha surgido en mí una gran pasión por el mundo de la
+            programación, el Desarrollo de Aplicaciones, Ciberseguridad, Cloud
+            Computing, Inteligencia Artificial, Redes de Computadoras, entre
+            otros temas. Siempre me esfuerzo por desarrollar aplicaciones que no
+            solo funcionen, sino que también sean óptimas para las diversas
+            plataformas del mercado.
           </p>
           <p className='my-4 font-medium dark:text-white/75'>
+            Mi objetivo principal es ser un guardian de la ciberseguridad,
+            creando software seguro que proteja a millones de usuarios y haga
+            del mundo digital un lugar más confiable y protegido.
+          </p>
+          <p className='font-medium dark:text-white/75'>
+            Mi visión a largo plazo es trabajar en la industria del desarrollo
+            de software seguro, colaborando con equipos multidisciplinarios para
+            crear soluciones innovadoras que protejan a los usuarios y promuevan
+            la confianza en el mundo digital.
+          </p>
+          <p className='my-4 font-medium dark:text-white/75'>
+            Con su pasión, determinación y conocimientos técnicos, estaré
+            preparado para enfrentar los desafíos de la industria del desarrollo
+            de software seguro y dejar una huella significativa en la protección
+            de la información y la privacidad de las personas.
+          </p>
+          <p className='font-medium dark:text-white/75'>
             En este momento me encuentro en el 9no ciclo académico y ansío poner
             en práctica todos mis conocimientos aprendidos.
           </p>
@@ -50,36 +69,36 @@ const About: FC<AboutProps> = () => {
               className={`inline-block text-8xl font-bold dark:text-white md:text-6xl sm:text-5xl 
             xs:text-4xl`}
             >
-              <AnimatedNumbers value={50} /> +
+              <AnimatedNumbers value={10} /> +
             </span>
             <h2
               className={`text-xl font-medium capitalize dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
             >
-              Clientes Satifechos
+              Proyectos Concluidos
             </h2>
           </div>
           <div className='flex flex-col items-end justify-center xl:items-center'>
             <span
               className={`inline-block text-8xl font-bold dark:text-white md:text-6xl sm:text-5xl xs:text-4xl`}
             >
-              <AnimatedNumbers value={50} /> +
+              <AnimatedNumbers value={15} /> +
             </span>
             <h2
               className={`text-xl font-medium capitalize dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
             >
-              Projects Completed
+              Certificaciones Obtenidas
             </h2>
           </div>
           <div className='flex flex-col items-end justify-center xl:items-center'>
             <span
               className={`inline-block text-8xl font-bold dark:text-white md:text-6xl sm:text-5xl xs:text-4xl`}
             >
-              <AnimatedNumbers value={50} /> +
+              <AnimatedNumbers value={4} /> +
             </span>
             <h2
               className={`text-xl font-medium capitalize dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
             >
-              Years of experience
+              Años de Preparación
             </h2>
           </div>
         </div>

@@ -8,6 +8,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: { primary: '#D1D5DB' },
       backgroundImage: {
         circularLight:
           'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#FFF 5px,#FFF 100px)',

@@ -8,7 +8,7 @@ interface AnimatedNumbersProps {
 export const AnimatedNumbers: FC<AnimatedNumbersProps> = ({ value }) => {
   const ref = useRef<HTMLDivElement>(null);
   const motionValue = useMotionValue(0);
-  const springValue = useSpring(motionValue, { duration: 3000 });
+  const springValue = useSpring(motionValue, { duration: 6000 });
   const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
