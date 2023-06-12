@@ -33,7 +33,7 @@ export const Project: FC<ProjectProps> = ({
     >
       <div
         className='absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2rem] rounded-br-3xl bg-black
-      md:-right-2 md:w-[101%] xs:h-[101%] xs:rounded-[1.5rem]
+      md:right-0 md:w-[101%] xs:h-[101%] xs:rounded-[1.5rem] 
       '
       />
       <Link

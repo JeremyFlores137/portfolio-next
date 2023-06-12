@@ -37,7 +37,7 @@ const About: FC<AboutProps> = () => {
           md:order-1 md:col-span-8
         '
         >
-          <div className='absolute -right-3 top-0 -z-10 h-[103%] w-[102%] rounded-[2rem] bg-black' />
+          <div className='absolute -right-3 top-0 -z-10 h-[103%] w-[102%] rounded-[2rem] bg-black md:right-0' />
           <Image
             src={ieremyPhoto}
             alt='Foto de Ieremy'

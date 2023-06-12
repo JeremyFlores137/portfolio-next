@@ -33,7 +33,7 @@ export const FeatureProject: FC<FeatureProjectProps> = ({
     >
       <div
         className='absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2.5rem] rounded-br-3xl bg-black
-      sm:h-[102%] xs:-right-2 xs:w-full xs:rounded-[1.5rem]
+      sm:h-[102%] md:right-0 xs:w-full xs:rounded-[1.5rem]
       '
       />
       <Link
