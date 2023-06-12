@@ -31,7 +31,7 @@ export const DetailEducation: FC<DetailEducationProps> = ({
         <h3 className='text-2xl font-bold dark:text-white/75 sm:text-xl xs:text-lg'>
           {type}
         </h3>
-        <span style={{opacity:0.8}} className='font-semibold dark:text-white text-opacity-80 xs:text-xs'>
+        <span style={{opacity:0.6}} className='font-semibold dark:text-white text-opacity-80 xs:text-xs'>
           {time} | {place}
         </span>
         <p className='w-full font-medium dark:text-white/75 md:text-sm'>

@@ -72,7 +72,7 @@ const About: FC<AboutProps> = () => {
               <AnimatedNumbers value={10} /> +
             </span>
             <h2
-              className={`text-xl font-medium capitalize dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
+              className={`text-xl font-medium dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
             >
               Proyectos Concluidos
             </h2>
@@ -84,7 +84,7 @@ const About: FC<AboutProps> = () => {
               <AnimatedNumbers value={15} /> +
             </span>
             <h2
-              className={`text-xl font-medium capitalize dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
+              className={`text-xl font-medium dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
             >
               Certificaciones Obtenidas
             </h2>
@@ -96,7 +96,7 @@ const About: FC<AboutProps> = () => {
               <AnimatedNumbers value={4} /> +
             </span>
             <h2
-              className={`text-xl font-medium capitalize dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
+              className={`text-xl font-medium dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
             >
               Años de Preparación
             </h2>
