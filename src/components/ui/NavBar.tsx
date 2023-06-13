@@ -49,7 +49,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
               variant='caption'
               color='inherit'
               sx={{
-                fontFamily: "'Dancing Script', cursive;",
+                fontFamily: "Dancing Script, cursive",
                 fontWeight: 'bold',
               }}
               className='dark:text-white'
