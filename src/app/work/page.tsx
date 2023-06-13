@@ -131,7 +131,7 @@ const Work: FC<WorkProps> = () => {
         </div>
         <div className='col-span-12'>
           <FeatureProject
-            title='Anterior Portafolio'
+            title='Portafolio Anterior'
             summary='Como principiante, mi portafolio web me sirvió como una forma de mostrar mis habilidades y comenzar con proyectos iniciales. El diseño del portafolio es simple y minimalista, con una estructura básica que incluye una página de inicio, una sección about y una galería de proyectos.'
             link='https://ieremy-flores.netlify.app/'
             img={previous_portfolio.src}

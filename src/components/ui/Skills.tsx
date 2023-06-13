@@ -31,84 +31,84 @@ const Skills: FC<SkillsProps> = () => {
           x='-40vw'
           y='5vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='CSS'
           x='40vw'
           y='-3vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='JavaScript'
           x='5vw'
           y='20vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Node.js'
           x='10vw'
           y='-10vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Docker'
           x='-18vw'
           y='10vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Kubernetes'
           x='-25vw'
           y='-8vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Next.js'
           x='5vw'
           y='-20vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='React'
           x='-18vw'
           y='23vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Web Design'
           x='30vw'
           y='15vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Java'
           x='-30vw'
           y='-20vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Spring'
           x='30vw'
           y='-18vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Python'
           x='-12vw'
           y='-23vw'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
-      text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-white'
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
       </div>
     </>
