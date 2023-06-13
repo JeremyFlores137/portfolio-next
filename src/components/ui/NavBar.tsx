@@ -45,7 +45,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
             }}
             className='dark:bg-stone-600'
           >
-            <Image src={photo.src} className='w-20' alt='Foto de Ieremy' />
+            <Image src={photo.src} width={80} height={80} alt='Foto de Ieremy' />
             <Typography
               variant='caption'
               color='inherit'
@@ -138,7 +138,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
                 }}
                 onClick={handleClick}
               >
-                <Image src={photo.src} className='w-24' alt='Foto de Ieremy' />
+                <Image src={photo.src} width={80} height={80} alt='Foto de Ieremy' />
                 <Typography
                   variant='caption'
                   color='inherit'
