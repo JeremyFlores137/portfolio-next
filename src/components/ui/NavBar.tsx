@@ -7,6 +7,7 @@ import { Card } from '@mui/material';
 import photo from '../../../public/img/ieremy_edited.jpg';
 import Link from 'next/link';
 import { useThemeSwitcher } from '../hooks';
+import Image from 'next/image';
 
 import {
   AppBar,
@@ -44,7 +45,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
             }}
             className='dark:bg-stone-600'
           >
-            <img src={photo.src} className='w-20' alt='Foto de Ieremy' />
+            <Image src={photo.src} className='w-20' alt='Foto de Ieremy' />
             <Typography
               variant='caption'
               color='inherit'
@@ -137,7 +138,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
                 }}
                 onClick={handleClick}
               >
-                <img src={photo.src} className='w-24' alt='Foto de Ieremy' />
+                <Image src={photo.src} className='w-24' alt='Foto de Ieremy' />
                 <Typography
                   variant='caption'
                   color='inherit'

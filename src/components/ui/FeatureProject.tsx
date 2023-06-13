@@ -74,7 +74,11 @@ export const FeatureProject: FC<FeatureProjectProps> = ({
           ))}
         </ul>
         <div className='mt-2 flex items-center'>
-          <Link href={github} target='_blank' className='w-10 hover:scale-105 ease-in-out duration-200'>
+          <Link
+            href={github}
+            target='_blank'
+            className='w-10 duration-200 ease-in-out hover:scale-105'
+          >
             <SvgComponentGit />
           </Link>
           <Link

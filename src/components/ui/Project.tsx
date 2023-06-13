@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { FC } from 'react';
 import { SvgComponentGit } from '../svg';
 
-
 interface ProjectProps {
   type: string;
   title: string;
@@ -25,11 +24,10 @@ export const Project: FC<ProjectProps> = ({
   summary,
   className = '',
 }) => {
-
   return (
     <article
       className={`relative flex w-full flex-col items-center justify-center rounded-2xl border border-solid
-     border-black dark:bg-neutral-300 bg-white p-6 xs:p-4`}
+     border-black bg-white p-6 dark:bg-neutral-300 xs:p-4`}
     >
       <div
         className='absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2rem] rounded-br-3xl bg-black
@@ -58,7 +56,7 @@ export const Project: FC<ProjectProps> = ({
           target='_blank'
           className='underline-offset-2 hover:underline'
         >
-          <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl text-black'>
+          <h2 className='my-2 w-full text-left text-3xl font-bold text-black lg:text-2xl'>
             {title}
           </h2>
         </Link>
@@ -74,11 +72,15 @@ export const Project: FC<ProjectProps> = ({
           <Link
             href={link}
             target='_blank'
-            className='text-lg font-semibold underline md:text-base text-black'
+            className='text-lg font-semibold text-black underline md:text-base'
           >
             Visitar
           </Link>
-          <Link href={github} target='_blank' className='w-8 md:w-6 hover:scale-105 ease-in-out duration-200'>
+          <Link
+            href={github}
+            target='_blank'
+            className='w-8 duration-200 ease-in-out hover:scale-105 md:w-6'
+          >
             <SvgComponentGit />
           </Link>
         </div>
