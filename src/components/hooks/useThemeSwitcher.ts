@@ -1,14 +1,11 @@
-'use client';
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export const useThemeSwitcher = () => {
-  const preferDarkQuery = '(prefer-color-scheme: dark)';
+  const preferDarkQuery = '(prefers-color-scheme: dark)';
   const [mode, setMode] = useState('');
-
   useEffect(() => {
     const mediaQuery = window.matchMedia(preferDarkQuery);
     const userPref = window.localStorage.getItem('theme');
-
     const handleChange = () => {
       if (userPref) {
         let check = userPref === 'dark' ? 'dark' : 'light';
@@ -21,7 +18,6 @@ export const useThemeSwitcher = () => {
       } else {
         let check = mediaQuery.matches ? 'dark' : 'light';
         setMode(check);
-
         if (check === 'dark') {
           document.documentElement.classList.add('dark');
         } else {
@@ -29,24 +25,21 @@ export const useThemeSwitcher = () => {
         }
       }
     };
-
     handleChange();
     mediaQuery.addEventListener('change', handleChange);
+    //handleChange();
     return () => mediaQuery.removeEventListener('change', handleChange);
-    
   }, []);
 
   useEffect(() => {
     if (mode === 'dark') {
       window.localStorage.setItem('theme', 'dark');
       document.documentElement.classList.add('dark');
-    }
-
-    if (mode === 'light') {
+    } else {
       window.localStorage.setItem('theme', 'light');
       document.documentElement.classList.remove('dark');
     }
   }, [mode]);
 
-  return [mode, setMode];
+  return [mode, setMode] as const;
 };
