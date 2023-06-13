@@ -14,8 +14,8 @@ const About: FC<AboutProps> = () => {
         text='Poder del Desarrollo: Imagina y Despliégalo'
         className='!mb-16 !normal-case dark:!text-white/80 3xl:!mt-40 2xl:!mt-8 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl'
       />
-      <div className='grid w-full grid-cols-8 gap-16 pb-24 pt-5 3xl:px-24 md:px-0 sm:gap-8'>
-        <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
+      <div className='grid w-full grid-cols-8 gap-16 pb-24 pt-5 3xl:px-16 md:px-0 sm:gap-8'>
+        <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 sm:px-2'>
           <h2 className={`mb-4 text-lg font-bold uppercase dark:text-white/80`}>
             Biografía
           </h2>
@@ -53,7 +53,7 @@ const About: FC<AboutProps> = () => {
         </div>
         <div
           className='relative col-span-3 h-max rounded-2xl border-2 border-solid border-black bg-white p-8 xl:col-span-4
-          md:order-1 md:col-span-8
+          md:order-1 md:col-span-8 
         '
         >
           <div className='absolute -right-3 top-0 -z-10 h-[103%] w-[102%] rounded-[2rem] bg-black md:right-0' />
@@ -63,7 +63,7 @@ const About: FC<AboutProps> = () => {
             className='h-auto rounded-2xl 2xl:m-auto 2xl:w-[80%] xl:w-full'
           />
         </div>
-        <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
+        <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 sm:px-2'>
           <div className='flex flex-col items-end justify-center xl:items-center'>
             <span
               className={`inline-block text-8xl font-bold dark:text-white md:text-6xl sm:text-5xl 
@@ -74,7 +74,7 @@ const About: FC<AboutProps> = () => {
             <h2
               className={`text-xl font-medium dark:text-white/75 xl:text-center md:text-lg sm:text-base xs:text-sm`}
             >
-              Proyectos Concluidos
+              Proyectos Concluídos
             </h2>
           </div>
           <div className='flex flex-col items-end justify-center xl:items-center'>
