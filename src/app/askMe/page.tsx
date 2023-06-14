@@ -20,14 +20,13 @@ const AskMe: FC<AskMeProps> = () => {
         height={300}
         className='py-5'
       />
-      <div className='relative m-0 h-[13vh] w-2/3 rounded-xl bg-gray-600 p-0'>
+      <div className='relative m-0 h-[13vh] w-2/3 sm:w-[85%] rounded-xl bg-gray-600 p-0'>
         <textarea
           style={{ fontFamily: 'Dancing Script, cursive' }}
           placeholder='Introduzca su mensaje'
           className='relative top-[50%] m-0 translate-y-[-50%] resize-none whitespace-nowrap rounded-xl border-none
            bg-gray-600 p-0 pl-5 text-white placeholder-gray-300 outline-none 3xl:h-[4rem] 
-          3xl:w-[96%]  3xl:text-[2rem]  2xl:h-[3rem] 2xl:w-[w-90%] 2xl:text-[1.5rem] xl:h-[2rem] xl:w-[88%] xl:text-[1rem] md:w-[85%]
-          xs:w-[82%]
+          3xl:w-[96%]  3xl:text-[2rem] 2xl:h-[3rem] 2xl:w-[w-90%] 2xl:text-[1.5rem] xl:h-[2rem] xl:w-[88%] xl:text-[1rem] md:w-[85%]
         '
         />
         <SvgComponentSend
@@ -35,6 +34,9 @@ const AskMe: FC<AskMeProps> = () => {
         hover:scale-105 hover:cursor-pointer hover:fill-white 3xl:text-3xl xs:text-xl 
         '
         />
+      </div>
+      <div className='relative m-0 h-[50vh] sm:w-[85%] w-2/3 rounded-xl bg-gray-600 p-0 mt-5'>
+        
       </div>
     </div>
   );

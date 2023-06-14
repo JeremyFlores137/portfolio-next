@@ -47,7 +47,7 @@ export default function Home() {
               href='https://mail.google.com/mail/?view=cm&fs=1&to=eulerfermatleibniz@gmail.com&su=Hello!%20How%20can%20I%20help%20you?&body='
               target='_blank'
               className='self-end underline duration-700 ease-in-out hover:scale-105 3xl:text-3xl 2xl:text-2xl xl:text-xl lg:text-lg
-              md:text-sm sm:text-sm xs:text-xs dark:text-white/80'
+              md:text-sm sm:text-sm xs:text-xs dark:text-white/80 mx-auto'
             >
               eulerfermatleibniz@gmail.com
             </a>

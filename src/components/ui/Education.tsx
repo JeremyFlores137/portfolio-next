@@ -9,7 +9,7 @@ export const Education: FC<EducationProps> = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ['start end', 'center'],
+    offset: ['start end', 'center start'],
   });
 
   return (
@@ -19,14 +19,14 @@ export const Education: FC<EducationProps> = () => {
       </h2>
       <div
         ref={ref}
-        className='relative mx-auto w-[%75] 3xl:w-1/3 3xl:pl-10 2xl:pl-0 lg:w-[90%] md:w-full'
+        className='relative mx-auto 3xl:w-1/3 3xl:pl-10 2xl:pl-0 2xl:w-[90%] md:w-full'
       >
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className={`absolute left-14 top-0 h-full w-[4px] origin-top bg-black dark:bg-white md:left-[55px] md:w-[2px] xs:left-[55px]`}
+          className={`absolute left-14 top-6 h-full w-[4px] origin-top bg-black dark:bg-white md:left-[55px] md:w-[2px] xs:left-[55px]`}
         />
 
-        <ul className='xs:ml-15 ml-16 flex-col items-start justify-between 2xl:ml-32 xl:ml-20 lg:ml-16'>
+        <ul className='xs:ml-15 flex-col items-start justify-between 3xl:ml-44 xl:ml-20 lg:ml-16'>
           <DetailEducation
             type='Bootcamp - The Fronted Career Path'
             time='2023 - Concluído'

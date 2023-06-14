@@ -20,7 +20,7 @@ const Skills: FC<SkillsProps> = () => {
       >
         <motion.div
           className='flex cursor-pointer items-center justify-center rounded-full bg-black p-10 text-2xl font-semibold
-         text-white shadow-black xl:p-8 xl:text-xl lg:p-6 md:p-4 xs:p-2 xs:text-sm'
+         text-white shadow-black xl:p-8 xl:text-xl lg:p-6 md:p-4 xs:p-2 xs:text-sm dark:sm:bg-white/80 dark:sm:text-black'
           whileHover={{ scale: 1.05 }}
         >
           Full-Stack Developer
