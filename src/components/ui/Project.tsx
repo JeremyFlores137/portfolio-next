@@ -63,7 +63,7 @@ export const Project: FC<ProjectProps> = ({
         <p className='my-2 font-medium text-black sm:text-sm'>{summary}</p>
         <ul className='ml-5'>
           {skillsList.map((skill: string, index: number) => (
-            <li key={index} className='m-2 list-disc text-pink-700'>
+            <li key={index} className='m-2 list-disc text-pink-700 sm:text-sm'>
               {skill}
             </li>
           ))}

@@ -56,7 +56,7 @@ export const FeatureProject: FC<FeatureProjectProps> = ({
           target='_blank'
           className='underline-offset-2 hover:underline'
         >
-          <h2 className='my-2 w-full text-left text-4xl font-bold text-black sm:text-sm'>
+          <h2 className='my-2 w-full text-left text-4xl font-bold text-black lg:text-2xl'>
             {title}
           </h2>
         </Link>
