@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 @keyframes pulse {
   50% {
     opacity: 0.5;
