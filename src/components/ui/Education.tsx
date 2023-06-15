@@ -38,7 +38,7 @@ export const Education: FC<EducationProps> = () => {
             time='2023 - En curso'
             place='Alura Latam'
             info='Alura es el brazo online de Caelum, una reconocida escuela de tecnología e innovación en Brasil.
-            Los fundadores, Paulo Silveira y Guilherme Silveira, se dieron cuenta de que muchos estudiantes tenían interés en sus cursos solo que no tenían acceso al contenido debido a la distancia y el tiempo. Fue así que la plataforma online nació en 2011 y, con el éxito del proyecto, creamos nuestra propia marca Alura en junio de 2013.
+            Los fundadores, Paulo Silveira y Guilherme Silveira, se dieron cuenta de que muchos estudiantes tenían interés en sus cursos solo que no tenían acceso al contenido debido a la distancia y el tiempo. Fue así que la plataforma online nació en 2011 y, con el éxito del proyecto, se creó la propia marca Alura en junio de 2013.
             En esta especialización estoy abordando los conceptos básicos y avanzados del lenguaje Java, desde la Programación Orientada a Objetos hasta el manejo y comprensión de las librerías más utilizadas en Java, como java.lang y java.util. También estoy aprendiendo sobre el manejo de errores, metodologías ágiles y, por último, me estaré adentrando en el uso del framework Spring de Java.
             '
           />

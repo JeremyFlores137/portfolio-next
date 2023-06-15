@@ -10,6 +10,8 @@ import typing from '../../../public/img/typing.png';
 import password from '../../../public/img/password.jpg';
 import quizzical from '../../../public/img/quiz.jpg';
 import previous_portfolio from '../../../public/img/portafolio_img.png';
+import unit_converter from '../../../public/img/unit_converter.png';
+import color_palet from '../../../public/img/color_palet.png';
 
 interface WorkProps {}
 
@@ -138,6 +140,29 @@ const Work: FC<WorkProps> = () => {
             github='https://github.com/JeremyFlores137/Porftfolio'
             type='Proyecto Destacado'
             skillsList={['JavaScript', 'HTML', 'CSS']}
+          />
+        </div>
+        <div className='col-span-6 sm:col-span-12'>
+          <Project
+            title='Convertidor de Unidades'
+            link='https://elaborate-stardust-dcbc4f.netlify.app/'
+            img={unit_converter.src}
+            github='https://github.com/JeremyFlores137/Unit-Converter'
+            type='Proyecto'
+            skillsList={['JavaScript', 'HTML', 'CSS']}
+            summary='La aplicación Convertidor de Unidades es una herramienta sencilla y eficiente que permite a los usuarios convertir diferentes tipos de unidades de manera rápida y automatizada. Su objetivo principal es proporcionar una solución eficiente para realizar conversiones de unidades sin complicaciones.'
+            className='m-auto !w-[75%] rounded-lg'
+          />
+        </div>
+        <div className='col-span-6 sm:col-span-12'>
+          <Project
+            title='Generador de Esquemas de Color'
+            link='https://elaborate-stardust-dcbc4f.netlify.app/'
+            img={color_palet.src}
+            github='https://github.com/JeremyFlores137/Color-Scheme-Generator'
+            type='Proyecto'
+            skillsList={['JavaScript', 'HTML', 'CSS']}
+            summary='La aplicación Generador de Esquemas de Color es una herramienta minimalista que ayuda a los usuarios a crear esquemas de color armoniosos para sus proyectos de diseño. Su objetivo principal es proporcionar una forma rápida y sencilla de generar combinaciones de colores estéticamente agradables.'
           />
         </div>
       </div>

@@ -19,7 +19,7 @@ export const Experience: FC<ExperienceProps> = () => {
       </h2>
       <div
         ref={ref}
-        className='relative mx-auto 3xl:w-1/3 3xl:pl-10 2xl:pl-0 2xl:w-[90%] md:w-full'
+        className='relative mx-auto 3xl:w-1/3 3xl:pl-10 2xl:w-[90%] 2xl:pl-0 md:w-full'
       >
         <motion.div
           style={{ scaleY: scrollYProgress }}
@@ -40,15 +40,15 @@ export const Experience: FC<ExperienceProps> = () => {
             company='SPS-UNI'
             time='2022 - Concluído'
             address='Líma, Perú'
-            work='Durante mi desempeño en el cargo de Vicepresidente de la IEEE SPS UNI tuve la oportunidad de sumergirme más en mi carrera y descubrir lo que verdaderamente me apasiona, el desarrollo de aplicaciones web junto con la ciberseguridad. Además de haber participado en un gran número de eventos y procesos de gestión para sacar en alto el capítulo SPS IEEE'
+            work='Durante mi desempeño en el cargo de vicepresidente de la IEEE SPS UNI, tuve la oportunidad de sumergirme más en mi carrera y descubrir lo que verdaderamente me apasiona: el Desarrollo de Aplicaciones web junto con la Ciberseguridad. Además, participé en un gran número de eventos y procesos de gestión para elevar el prestigio del capítulo SPS IEEE.'
             companyLink='https://web.facebook.com/IEEESPSUNI'
           />
           <Detail
             position='Participación en la Feria de Proyectos 2023'
             company='Feria-UNI'
-            time='2023 - Present'
+            time='2023 - En Curso'
             address='Lima, Perú'
-            work='El proyecto se centra en el desarrollo de un sistema web para controlar un brazo robótico conectado a una cámara. El objetivo principal es implementar algoritmos de reconocimiento facial basados en redes neuronales convolucionales (CNN) para identificar rostros cubiertos y prevenir robos o posibles intentos de robo. El sistema brindará a los usuarios acceso a través de una interfaz web desde cualquier dispositivo con conexión a Internet. Desde esta interfaz, podrán controlar los movimientos del brazo robótico y visualizar en tiempo real las imágenes capturadas por la cámara.'
+            work='El proyecto se centra en el desarrollo de un sistema web para controlar un brazo robótico conectado a una cámara. El objetivo principal es implementar algoritmos de reconocimiento facial basados en redes neuronales convolucionales (CNN) para identificar rostros cubiertos y prevenir robos o posibles intentos de robo. El sistema permitirá a los usuarios controlar el brazo robótico a través de una interfaz web desde cualquier dispositivo con conexión a Internet. Desde esta interfaz, podrán controlar los movimientos del brazo robótico y visualizar en tiempo real las imágenes capturadas por la cámara.'
             companyLink='https://web.facebook.com/FIEE.UNI.Oficial'
           />
         </ul>
