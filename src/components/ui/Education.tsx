@@ -31,14 +31,14 @@ export const Education: FC<EducationProps> = () => {
             type='Bootcamp - The Fronted Career Path'
             time='2023 - Concluído'
             place='Scrimba'
-            info='Scrimba AS es una empresa remota con sede en Oslo, Noruega. Contamos con el respaldo de StartupLab, Nordic Makers, Alliance Venture y Amasia. The Frontend Carreer Path tiene como objetivo cubrir todo lo se necesita saber para ser contratado como desarrollador Frontend. Esto incluye HTML, CSS, JavaScript, React, diseño de interfaz de usuario, consejos profesionales ¡y mucho más!.'
+            info='Scrimba AS es una empresa remota con sede en Oslo, Noruega. Cuenta con el respaldo de StartupLab, Nordic Makers, Alliance Venture y Amasia. The Frontend Carreer Path tiene como objetivo cubrir todo lo se necesita saber para ser contratado como desarrollador Frontend. Esto incluye HTML, CSS, JavaScript, React, diseño de interfaz de usuario, consejos profesionales ¡y mucho más!.'
           />
           <DetailEducation
             type='Oracle Next Education - Especialización Backend'
             time='2023 - En curso'
             place='Alura Latam'
             info='Alura es el brazo online de Caelum, una reconocida escuela de tecnología e innovación en Brasil.
-            Los fundadores, Paulo Silveira y Guilherme Silveira, se dieron cuenta de que muchos estudiantes tenían interés en nuestros cursos solo que no tenían acceso a nuestro contenido debido a la distancia y el tiempo. Fue así que la plataforma online nació en 2011 y, con el éxito del proyecto, creamos nuestra propia marca Alura en junio de 2013.
+            Los fundadores, Paulo Silveira y Guilherme Silveira, se dieron cuenta de que muchos estudiantes tenían interés en sus cursos solo que no tenían acceso al contenido debido a la distancia y el tiempo. Fue así que la plataforma online nació en 2011 y, con el éxito del proyecto, creamos nuestra propia marca Alura en junio de 2013.
             En esta especialización estoy abordando los conceptos básicos y avanzados del lenguaje Java, desde la Programación Orientada a Objetos hasta el manejo y comprensión de las librerías más utilizadas en Java, como java.lang y java.util. También estoy aprendiendo sobre el manejo de errores, metodologías ágiles y, por último, me estaré adentrando en el uso del framework Spring de Java.
             '
           />
@@ -46,7 +46,7 @@ export const Education: FC<EducationProps> = () => {
             type='Certified in Cybersecurity'
             time='2023 - Concluído'
             place='(ISC)²'
-            info='(ISC)² es una asociación internacional sin fines de lucro para líderes de seguridad de la información. Se comprometen a ayudar a los miembros a aprender, crecer y prosperar. Con casi 330,000 miembros, asociados y candidatos, capacitamos a profesionales que abarcan todos los aspectos de la seguridad de la información.'
+            info='(ISC)² es una asociación internacional sin fines de lucro para líderes de seguridad de la información. Se comprometen a ayudar a los miembros a aprender, crecer y prosperar. Con casi 330,000 miembros, asociados y candidatos, capacitan a profesionales que abarcan todos los aspectos de la seguridad de la información.'
           />
           <DetailEducation
             type='Penetration Testing Student - eJPTv2'

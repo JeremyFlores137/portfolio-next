@@ -41,7 +41,7 @@ const About: FC<AboutProps> = () => {
             la confianza en el mundo digital.
           </p>
           <p className='my-4 font-medium dark:text-white/75'>
-            Con su pasión, determinación y conocimientos técnicos, estaré
+            Con pasión, determinación y conocimientos técnicos, estaré
             preparado para enfrentar los desafíos de la industria del desarrollo
             de software seguro y dejar una huella significativa en la protección
             de la información y la privacidad de las personas.

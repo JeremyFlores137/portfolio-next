@@ -29,84 +29,105 @@ const Skills: FC<SkillsProps> = () => {
         <SkillAnimation
           name='HTML'
           x='-40vw'
-          y='5vw'
+          y='5vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='CSS'
           x='40vw'
-          y='-3vw'
+          y='-3vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='JavaScript'
           x='5vw'
-          y='20vw'
+          y='20vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Node.js'
           x='10vw'
-          y='-10vw'
+          y='-10vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Docker'
           x='-18vw'
-          y='10vw'
+          y='10vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Kubernetes'
           x='-25vw'
-          y='-8vw'
+          y='-8vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Next.js'
           x='5vw'
-          y='-20vw'
+          y='-20vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='React'
-          x='-18vw'
-          y='23vw'
+          x='-16vw'
+          y='21vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Web Design'
-          x='30vw'
-          y='15vw'
+          x='28vw'
+          y='15vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Java'
           x='-30vw'
-          y='-20vw'
+          y='-16vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Spring'
           x='30vw'
-          y='-18vw'
+          y='-16vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
           name='Python'
           x='-12vw'
-          y='-23vw'
+          y='-20vh'
+          className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
+        />
+        <SkillAnimation
+          name='CC-(ISC)²'
+          x='-30vw'
+          y='15vh'
+          className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
+        />
+        <SkillAnimation
+          name='eJPTv2'
+          x='-5vw'
+          y='-10vh'
+          className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
+        />
+        <SkillAnimation
+          name='CCNA 300-201'
+          x='12vw'
+          y='8vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
