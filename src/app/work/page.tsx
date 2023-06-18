@@ -157,7 +157,7 @@ const Work: FC<WorkProps> = () => {
         <div className='col-span-6 sm:col-span-12'>
           <Project
             title='Generador de Esquemas de Color'
-            link='https://elaborate-stardust-dcbc4f.netlify.app/'
+            link='https://resilient-snickerdoodle-5863d8.netlify.app/'
             img={color_palet.src}
             github='https://github.com/JeremyFlores137/Color-Scheme-Generator'
             type='Proyecto'
