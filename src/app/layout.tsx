@@ -30,7 +30,7 @@ export default function RootLayout({
         <nav>
           <NavBar />
         </nav>
-        <main className='h-full w-full 2xl:pt-28 xl:pt-28 lg:pt-32 md:pt-28 sm:pt-28'>
+        <main className='h-full w-full 3xl:pt-28 xl:pt-28 lg:pt-32 md:pt-28 sm:pt-28'>
           {children}
         </main>
         <Footer />

@@ -17,7 +17,7 @@ interface WorkProps {}
 
 const Work: FC<WorkProps> = () => {
   return (
-    <section className='flex w-full flex-col items-center justify-center pb-16 3xl:mt-40 2xl:mt-0'>
+    <section className='flex w-full flex-col items-center justify-center pb-16 3xl:mt-8'>
       <Presentation
         text='La Imaginación Supera al Conocimiento!'
         className='!mb-16 !normal-case dark:text-white/90 lg:!text-6xl sm:mb-8 sm:!text-6xl xs:!text-4xl'

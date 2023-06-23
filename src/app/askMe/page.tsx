@@ -34,10 +34,10 @@ const AskMe: FC<AskMeProps> = () => {
   };
 
   return (
-    <div className='flex w-full flex-col items-center justify-center pb-16 3xl:mt-40 2xl:mt-0'>
+    <div className='flex w-full flex-col items-center justify-center pb-16'>
       <Presentation
         text='!Cuénteme! ¿Qué desea saber?'
-        className='!mb-16 !normal-case dark:!text-white/80 3xl:!mt-40 2xl:!mt-8 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl'
+        className='!mb-16 !normal-case dark:!text-white/80 3xl:!mt-8 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl'
       />
       <Image
         src={robotin.src}

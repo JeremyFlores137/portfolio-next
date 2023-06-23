@@ -12,7 +12,7 @@ const About: FC<AboutProps> = () => {
     <div className='flex w-full flex-col items-center justify-center'>
       <Presentation
         text='Poder del Desarrollo: Imagina y Despliégalo'
-        className='!mb-16 !normal-case dark:!text-white/80 3xl:!mt-40 2xl:!mt-8 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl'
+        className='!mb-16 !normal-case dark:!text-white/80 3xl:!mt-8 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl'
       />
       <div className='grid w-full grid-cols-8 gap-16 pb-24 pt-5 3xl:px-16 md:px-0 sm:gap-8'>
         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 sm:px-2'>
