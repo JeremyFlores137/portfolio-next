@@ -42,7 +42,10 @@ export const Detail: FC<DetailProps> = ({
             @{company}
           </a>
         </h3>
-        <span style={{opacity:0.6}} className='font-semibold dark:text-white xs:text-sm'>
+        <span
+          style={{ opacity: 0.6 }}
+          className='font-semibold dark:text-white xs:text-sm'
+        >
           {time} | {address}
         </span>
         <p className='w-full font-medium dark:text-white/75 md:text-sm'>
