@@ -23,7 +23,7 @@ export const Footer: FC<PageProps> = () => {
             />
           </motion.a>
           <motion.a
-            href='https://www.linkedin.com/in/ieremy-flores-condori-a07036233/'
+            href='https://www.linkedin.com/in/jeremy-flores-condori-a07036233/'
             target={'_blank'}
             whileHover={{ y: -2 }}
             className='w-6'
