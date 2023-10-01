@@ -86,7 +86,7 @@ const AskMe: FC<AskMeProps> = () => {
             Respuesta aquí:
             <Presentation
               text={result}
-              className='!text-left !normal-case 3xl:!text-xl lg:!text-lg md:!text-lg sm:!text-sm mt-2'
+              className='mt-2 !text-left !normal-case 3xl:!text-xl lg:!text-lg md:!text-lg sm:!text-sm'
             />
           </>
         )}
