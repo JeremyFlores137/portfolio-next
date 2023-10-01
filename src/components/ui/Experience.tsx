@@ -49,7 +49,7 @@ export const Experience: FC<ExperienceProps> = () => {
             time='2023 - En Curso'
             address='Lima, Perú'
             work='El proyecto se centra en el desarrollo de un sistema web para controlar un brazo robótico conectado a una cámara. El objetivo principal es implementar algoritmos de reconocimiento facial basados en redes neuronales convolucionales (CNN) para identificar rostros cubiertos y prevenir robos o posibles intentos de robo. El sistema permitirá a los usuarios controlar el brazo robótico a través de una interfaz web desde cualquier dispositivo con conexión a Internet. Desde esta interfaz, podrán controlar los movimientos del brazo robótico y visualizar en tiempo real las imágenes capturadas por la cámara.'
-            companyLink='https://web.facebook.com/FIEE.UNI.Oficial'
+            companyLink='https://fp-2023-web.vercel.app/'
           />
         </ul>
       </div>

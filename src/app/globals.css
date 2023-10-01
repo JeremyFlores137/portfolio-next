@@ -14,6 +14,10 @@
   pointer-events: none;
 }
 
+body * {
+  @apply transition-colors duration-1000 ease-out;
+}
+
 @keyframes pulse {
   50% {
     opacity: 0.5;

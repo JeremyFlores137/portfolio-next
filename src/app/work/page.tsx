@@ -9,6 +9,7 @@ import dashboard from '../../../public/img/dashboard.png';
 import typing from '../../../public/img/typing.png';
 import password from '../../../public/img/password.jpg';
 import quizzical from '../../../public/img/quiz.jpg';
+import cortana from '../../../public/img/cortana.png';
 import previous_portfolio from '../../../public/img/portafolio_img.png';
 import unit_converter from '../../../public/img/unit_converter.png';
 import color_palet from '../../../public/img/color_palet.png';
@@ -163,6 +164,17 @@ const Work: FC<WorkProps> = () => {
             type='Proyecto'
             skillsList={['JavaScript', 'HTML', 'CSS']}
             summary='La aplicación Generador de Esquemas de Color es una herramienta minimalista que ayuda a los usuarios a crear esquemas de color armoniosos para sus proyectos de diseño. Su objetivo principal es proporcionar una forma rápida y sencilla de generar combinaciones de colores estéticamente agradables.'
+          />
+        </div>
+        <div className='col-span-12'>
+          <FeatureProject
+            title='Proyecto Cortana'
+            summary='Este proyecto da vida a una interfaz web que proporciona la esencia misma de abstracción, ofreciendo un control y supervisión sobre una cámara de vigilancia imbuida con el poder de discernir imágenes. Su propósito es proporcionar al usuario la facilidad de controlar la cámara con maestría, respondiendo con presteza ante cada señal de alerta que perciba, en busca de salvaguardar la seguridad en todo momento.'
+            link='https://fp-2023-web.vercel.app/'
+            img={cortana.src}
+            github='https://github.com/JeremyFlores137/fp-2023-web'
+            type='Proyecto Destacado'
+            skillsList={['Next.js', 'React', 'Node.js', 'OAuth', 'MySQL']}
           />
         </div>
       </div>

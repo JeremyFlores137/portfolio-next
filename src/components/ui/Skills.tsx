@@ -97,9 +97,16 @@ const Skills: FC<SkillsProps> = () => {
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />
         <SkillAnimation
-          name='Spring'
+          name='Spring Boot'
           x='30vw'
           y='-16vh'
+          className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
+      dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
+        />
+        <SkillAnimation
+          name='ICCA'
+          x='30vw'
+          y='-5vh'
           className='absolute flex cursor-pointer items-center justify-center rounded-full bg-black p-2 font-semibold 
       dark:text-white shadow-black 2xl:p-6 lg:px-4 lg:py-2 md:px-2 md:py-1.5 md:text-sm sm:text-xs xs:bg-transparent xs:text-black 3xl:text-white'
         />

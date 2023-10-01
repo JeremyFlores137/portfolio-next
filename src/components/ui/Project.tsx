@@ -26,8 +26,8 @@ export const Project: FC<ProjectProps> = ({
 }) => {
   return (
     <article
-      className={`relative flex w-full flex-col items-center justify-center rounded-2xl border border-solid
-     border-black bg-white p-6 dark:bg-neutral-300 xs:p-4`}
+      className={`relative flex w-full flex-col items-center justify-center rounded-2xl border
+     border-solid border-black bg-white p-6 dark:bg-neutral-300 xs:p-4`}
     >
       <div
         className='absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2rem] rounded-br-3xl bg-black
@@ -44,7 +44,7 @@ export const Project: FC<ProjectProps> = ({
           alt={title}
           className={`h-auto w-full ${className}`}
           width={800}
-          height={600}
+          height={800}
         />
       </Link>
       <div className='mt-4 flex w-full flex-col items-start justify-between'>

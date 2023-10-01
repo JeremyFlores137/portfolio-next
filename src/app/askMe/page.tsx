@@ -4,7 +4,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import robotin from '../../../public/img/robotin.png';
 import { SvgComponentSend } from '@/components/svg';
-import { useState } from 'react';
+import { useState, KeyboardEvent } from 'react';
 
 interface AskMeProps {}
 
@@ -33,6 +33,14 @@ const AskMe: FC<AskMeProps> = () => {
     setPrompt(e.target.value);
   };
 
+  const handleKeypress = (event: KeyboardEvent<HTMLTextAreaElement>) => {
+    //it triggers by pressing the enter key
+    if (event.code === 'Enter') {
+      event.preventDefault();
+      handleSubmit();
+    }
+  };
+
   return (
     <div className='flex w-full flex-col items-center justify-center pb-16'>
       <Presentation
@@ -56,6 +64,7 @@ const AskMe: FC<AskMeProps> = () => {
         '
           value={prompt}
           onChange={handleChange}
+          onKeyDown={handleKeypress}
         />
         <button
           onClick={() => handleSubmit()}

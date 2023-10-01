@@ -46,8 +46,8 @@ export default function Home() {
               Mi Curriculum
             </a>
             <a
-              href='https://mail.google.com/mail/?view=cm&fs=1&to=eulerfermatleibniz@gmail.com&su=Hello!%20How%20can%20I%20help%20you?&body='
-              target='_blank'
+              /*href='https://mail.google.com/mail/?view=cm&fs=1&to=eulerfermatleibniz@gmail.com&su=Hello!%20How%20can%20I%20help%20you?&body='*/
+              href='mailto:eulerfermatleibniz@gmail.com'
               className='mx-auto self-end underline duration-700 ease-in-out hover:scale-105 dark:text-white/80 3xl:text-3xl 2xl:text-2xl
               xl:text-xl lg:text-lg md:text-sm sm:text-sm xs:text-xs'
             >
