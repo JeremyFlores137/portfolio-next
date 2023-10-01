@@ -36,7 +36,7 @@ export default function Home() {
           <ContactMe />
           <div className='mr-auto flex items-center justify-center gap-2 3xl:mt-8 xl:mt-0 lg:m-auto lg:mb-20 lg:flex-col'>
             <a
-              href='https://unipe-my.sharepoint.com/:b:/g/personal/ieremy_flores_c_uni_pe/Ed7g2dIRY8JErghZbIm-zmMBgolKD5dh33bY_WtWQQs6kw?e=ZhCWwK'
+              href='https://unipe-my.sharepoint.com/:b:/g/personal/ieremy_flores_c_uni_pe/EYtyrGAY6TtFruNZAHdMULQBv4QbxcRhyOjY3WeIvZM9-Q?e=I7vZ8W'
               target='_blank'
               className='m-2 mb-auto rounded-xl bg-black p-5 text-white duration-700 ease-in-out hover:scale-105
             hover:bg-white hover:text-black 3xl:ml-0 3xl:text-3xl 2xl:text-2xl xl:ml-auto
